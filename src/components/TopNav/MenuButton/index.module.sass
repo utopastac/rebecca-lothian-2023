@@ -4,19 +4,19 @@
   z-index: $z-overlay
   width: $border-m
   height: $border-m
-  @include min($screen-l)
-    width: $border-l
-    height: $border-l
-    
   display: flex
   align-items: center
   justify-content: center
   position: fixed
   top: 0
-  right: 0
+  left: 0
   background: $white
   cursor: pointer
   @include animate(0.3s)
+
+  @include min($screen-l)
+    width: $border-l
+    height: $border-l
 
   &:after
     content: ""

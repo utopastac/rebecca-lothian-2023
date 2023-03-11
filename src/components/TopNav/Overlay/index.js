@@ -26,14 +26,17 @@ export default function Overlay(props) {
   })
   
   return (
-    <Animated show={show} type={RIGHT}>
+    <Animated show={show} type={LEFT}>
       <div className={styles.Main}>
         <div className={styles.content}>
+          <header>
+            <h2>Rebecca Lothian</h2>
+            <p>Childrenswear, Print, illustration</p>
+          </header>
           <div className={`${styles.linkBlock} ${styles.homeLink}`}>
-            <Link to={Data.HOME.path}><h5>Home</h5></Link>
+            <Link to={Data.HOME.path}><p>Home</p></Link>
           </div>
           <section className={styles.links}>
-            
             {content}
           </section>
         </div>

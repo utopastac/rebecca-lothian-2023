@@ -1,17 +1,17 @@
 @import 'styles/site.sass'
 
 .Main
-  height: $nav-bar-height
+  height: units(8)
   background-color: white
-  padding: 0 $space-xs
+  padding: 0 $space-xs 0 $space-s
   
-  @include max($screen-l)
   @include min($screen-l)
+    height: $nav-bar-height
     position: fixed
     left: 0
     top: 100vh
     width: 100vh
-    padding: 0 units(3)
+    padding: 0 units(8) 0 units(3)
     transform-origin: top left
     transform: rotate(270deg)
   

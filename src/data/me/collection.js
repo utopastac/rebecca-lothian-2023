@@ -14,11 +14,6 @@ export const DATA = {
   ],
   pages: [
     {
-      ...SECTIONS.sectionHeader,
-      title: 'Building a toy company',
-      path: '#building-a-toy-company',
-    },
-    {
       ...SECTIONS.section,
       title: 'Founding Playpress',
       path: '#founding-playpress',
