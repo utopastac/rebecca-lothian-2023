@@ -5,8 +5,12 @@
   position: relative
   @include animate(0.1s)
   color: currentColor
-  padding-bottom: units(3)
+  margin-bottom: units(3)
   display: flex
+  flex-direction: row-reverse
+
+  .backer
+    @include background-block($peach-200, -units(2))
 
   &:before
     content: "↗"
@@ -17,15 +21,19 @@
   header
     display: block !important
     margin: 0 !important
+    flex: 1
 
     h5
       @extend %body-m
       @extend %medium
+      text-decoration: underline
     
     p
       @extend %body-s
-      margin-top: units(1)
+      margin-top: size(2)
 
   &:hover
+    .backer
+      opacity: 0.5
     h5
       text-decoration: underline
