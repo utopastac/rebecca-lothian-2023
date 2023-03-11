@@ -5,7 +5,9 @@ import styles from "./index.module.sass";
 export default function MenuButton(props) {
   const {setActive} = props;
   return (
-    <div className={styles.Main} onClick={()=>setActive(true)}></div>
+    <div className={styles.Main} onClick={()=>setActive(true)}>
+      <div></div>
+    </div>
   );
 }
 

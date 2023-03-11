@@ -1,12 +1,11 @@
 @import 'styles/site.sass'
 
 .Main
+  position: relative
   z-index: $z-overlay
+  padding: size(4)
   width: $border-m
   height: $border-m
-  display: flex
-  align-items: center
-  justify-content: center
   position: fixed
   top: 0
   left: 0
@@ -17,16 +16,36 @@
   @include min($screen-l)
     width: $border-l
     height: $border-l
+    top: size(12)
+    left: size(12)
 
-  &:after
-    content: ""
-    width: units(2)
-    height: size(14)
-    background-image: url(../../../images/icons/icon-menu.png)
-    background-size: 100% 100%
+    > div
+      width: calc(#{$border-l} - #{size(8)})
+      height: calc(#{$border-l} - #{size(8)})
+      border-radius: 500px
+      background: $peach-200
+  
+
+  > div
+    width: calc(#{$border-m} - #{size(8)})
+    height: calc(#{$border-m} - #{size(8)})
+    display: flex
+    align-items: center
+    justify-content: center
     @include animate(0.3s)
+
+    &:after
+      content: ""
+      width: units(2)
+      height: size(14)
+      background-image: url(../../../images/icons/icon-menu.png)
+      background-size: 100% 100%
+      @include animate(0.3s)
+
+  
     
   &:hover
-    background: $grey-100
-    &:after
-      width: units(3)
+    > div
+      scale: 1.1
+      &:after
+        width: units(2.5)
