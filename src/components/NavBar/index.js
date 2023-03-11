@@ -29,7 +29,7 @@ function NavBar(props) {
         </div>
         <div>
           <h4>{year}</h4>
-          <p>–</p>
+          <p>&nbsp;</p>
         </div>
       </div>
     </div>

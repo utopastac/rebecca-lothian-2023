@@ -5,6 +5,9 @@
     max-width: $text-max-width
     padding: $space-s 0
 
+    @include min($screen-l)
+      padding-top: $space-m
+
     h1
       @extend %heading-xl
       margin-bottom: $space-m

@@ -3,7 +3,10 @@
 .Main
   height: units(8)
   background-color: white
-  padding: 0 $space-xs 0 $space-s
+  padding: 0 $space-xs
+
+  @include max($screen-l)
+    margin-top: units(5)
   
   @include min($screen-l)
     height: $nav-bar-height

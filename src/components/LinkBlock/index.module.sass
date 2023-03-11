@@ -9,8 +9,10 @@
 
   .container
     display: grid
-    grid-template-columns: 2fr 1fr
-    grid-gap: $space-s 
+
+    @include min($screen-m)
+      grid-gap: $space-s
+      grid-template-columns: 2fr 1fr
 
   .content
     max-width: $text-max-width
@@ -29,7 +31,9 @@
     @include background-block($peach-200, -units(6))
     
   header
-    margin-bottom: units(3)
+    padding: units(3) 0
+    @include min($screen-m)
+      margin-bottom: units(2)
     @include animate(0.3s)
     background: url(../../images/icons/icon-navigation-arrow.png) no-repeat center right
     background-size: auto units(3)
