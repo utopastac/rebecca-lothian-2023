@@ -1,5 +1,4 @@
 import React from "react";
-import * as ProcessData from 'data/process';
 import * as MeData from 'data/me';
 import * as WorkData from 'data/work';
 import * as Pages from 'containers';
@@ -8,7 +7,6 @@ import LinkSet from 'components/LinkSet';
 import * as Colors from 'data/colors';
 //
 export const WORK_PATH = '/work';
-export const PROCESS_PATH = '/process';
 export const ME_PATH = '/me';
 //
 export const HOME = {title: 'Home', component: Pages.Home, path: '/'};
@@ -21,15 +19,13 @@ export const NOT_FOUND = {
 //
 //
 export const WORK_THEME = Colors.BLACK_THEME;
-export const PROCESS_THEME = Colors.WHITE_THEME;
-export const ME_THEME = Colors.BLACK_THEME;
+export const ME_THEME = Colors.WHITE_THEME;
 //
 //
 //
 export const NAV_ITEMS = [
   {
     title: 'Work',
-    component: Pages.Landing,
     data: WorkData,
     path: WORK_PATH,
     links: (<LinkSet data={WorkData} basePath={WORK_PATH} />),
@@ -37,21 +33,11 @@ export const NAV_ITEMS = [
     landingTheme: Colors.WHITE_THEME
   },
   {
-    title: 'Process',
-    component: Pages.Landing,
-    data: ProcessData,
-    path: PROCESS_PATH,
-    links: (<LinkSet data={ProcessData} basePath={PROCESS_PATH} />),
-    theme: PROCESS_THEME,
-    landingTheme: Colors.SLATE_THEME
-  },
-  {
     title: 'Me',
-    component: Pages.Landing,
     data: MeData,
     path: ME_PATH,
     links: (<LinkSet data={MeData} basePath={ME_PATH} />),
     theme: ME_THEME,
-    landingTheme: Colors.UMBER_THEME
+    landingTheme: Colors.BLACK_THEME
   }
 ];

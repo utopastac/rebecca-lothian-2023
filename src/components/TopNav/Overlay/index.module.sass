@@ -9,9 +9,14 @@
   background: $white
   z-index: $z-overlay
   @include min($screen-m)
-    padding: $border-m
+
   @include min($screen-l)
-    padding: $border-l
+    left: auto
+    width: units(70)
+    
+  .linkBlock
+    max-width: units(55)
+    margin-bottom: units(8)
   
   .content
     width: 100%
@@ -23,19 +28,14 @@
     padding: $space-s
     @include min($screen-l)
       padding: $space-m
-      //display: flex
-      //justify-content: center
-      //align-items: center
 
-    a h5
-      &:hover
-        text-decoration: underline
+    h5
+      @extend %heading-l
 
     .homeLink
       a h5
-        @extend %heading-l
+        @extend %body-m
+        @extend %links
 
       @include min($screen-l)
         margin-bottom: units(10)
-    
-    @extend %site-links

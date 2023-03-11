@@ -17,7 +17,7 @@ export default function Overlay(props) {
     const {path, title, links} = item;
     return (
       <div className={styles.linkBlock} key={`links${i}`}>
-        <Link to={path}><h5>{title}</h5></Link>
+        <h5>{title}</h5>
         <ul>
           {links}
         </ul>

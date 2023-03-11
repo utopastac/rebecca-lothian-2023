@@ -2,7 +2,7 @@
 
 .Main
   flex: 1
-  max-width: units(70)
+  
   @include min($screen-m)
     padding-right: $space-l
   
@@ -11,11 +11,6 @@
 
   @include min($screen-l)
     padding-bottom: units(4)
-  
-  .block
-    width: $block-width
-    height: units(2.5)
-    margin-bottom: units(3)
-    background: $black
+
   h1
     @extend %heading-xl

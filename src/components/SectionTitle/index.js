@@ -8,7 +8,6 @@ export default function SectionTitle(props) {
 
   return (
     <section className={styles.Main}>
-      <div className={styles.block} style={{background: color}}/>
       <h1 style={{color: color}}>{title}</h1>
     </section>
   );

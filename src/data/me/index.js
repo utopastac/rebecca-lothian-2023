@@ -30,22 +30,22 @@ export const TITLE_BLOCK = {
 };
 
 export const PAGES = [
-  // {
-  //   title: 'About me',
-  //   intro: 'My life, my dogs, my family, my interests, and everything that makes me who I am.',
-  //   subtitle: '#### Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione',
-  //   path: `/about-me`,
-  //   data: About.DATA
-  // },
   {
-    title: 'Playpress',
+    title: 'About me',
+    intro: 'My life, my dogs, my family, my interests, and everything that makes me who I am.',
+    subtitle: '#### Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione',
+    path: `/about-me`,
+    data: About.DATA
+  },
+  {
+    title: 'Collection',
     intro: 'Playpress is a toy company I founded with my brother, creating award-winning, eco-friendly playsets.',
     subtitle: '#### Playpress is a set of construction toys, designed and manufactured in the UK. Made out of recycled cardboard, it is designed as an environmentally friendly, pocket-money price toy, but retaining all the fun of well-known brands like Lego.',
     path: `/playpress`,
     data: Playpress.DATA
   },
   {
-    title: 'Pixel Portraits',
+    title: `Vintage Children's books`,
     intro: 'Portraits of people I have seen out and about in a pixelated style, drawn on my phone with Memopad.',
     subtitle: '#### Sometimes when I have downtime, on the train or while waiting, I like to draw the people I see.',
     path: `/pixel-portraits`,
@@ -62,12 +62,17 @@ export const PAGES = [
     path: `https://www.linkedin.com/in/utopastac/`,
   },
   {
-    title: 'Twitter',
+    title: 'Vintage Instagram',
     type: 'link',
     path: `https://twitter.com/utopastac`,
   },
   {
-    title: 'Medium',
+    title: 'Childrenswear instagram',
+    type: 'link',
+    path: `https://medium.com/@utopastac`,
+  },
+  {
+    title: 'Pinterest',
     type: 'link',
     path: `https://medium.com/@utopastac`,
   },

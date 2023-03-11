@@ -3,8 +3,6 @@ import cat from 'images/pixel/p50.PNG';
 
 export const SECTIONS = {
   peerQuotes: {
-    title: 'Peer Quotes',
-    path: '#peerQuotes',
     component: Content.PeerQuotes,
     quotes: [
       {

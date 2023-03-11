@@ -4,7 +4,7 @@ import Markdown from 'components/Markdown';
 import styles from "./index.module.sass";
 import ThemeContext from "containers/ThemeContext";
 
-export default function PoliciesList(props) {
+export default function Overview(props) {
 
   const { copy, img } = props;
 
@@ -22,7 +22,7 @@ export default function PoliciesList(props) {
   );
 }
 
-PoliciesList.propTypes = {
+Overview.propTypes = {
   copy: PropTypes.string.isRequired,
   img: PropTypes.string.isRequired,
 };
