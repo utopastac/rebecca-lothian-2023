@@ -1,55 +1,39 @@
 import * as About from 'data/me/about';
-import * as Playpress from 'data/me/playpress';
-import * as Pixel from 'data/me/pixel';
-
-export const TITLE_BLOCK = {
-  title: 'Me',
-  subtitle: `
-#### How I like to work, what value I can add, and things you should know about me. 'Silly' is a lofty compliment!
-`,
-  links: [
-    {
-      title: 'How to make good things while being good to each other',
-      subtitle: 'A list of commandments for making products in a happy and healthy team.',
-      cta: 'Read on Medium',
-      path: 'https://medium.com/@utopastac/how-to-make-good-things-while-being-good-to-each-other-3a98236529da'
-    },
-    {
-      title: 'What tech companies can learn from advertising',
-      subtitle: 'Product teams think ‘agile’ and ‘lean’ are really fast. They’re nice words, but they should try working in advertising.',
-      cta: 'Read on Medium',
-      path: 'https://medium.com/@utopastac/how-to-make-good-things-while-being-good-to-each-other-3a98236529da'
-    },
-    {
-      title: 'Anxiety in the workplace',
-      subtitle: 'I suffer, or have variously suffered in the past, from various anxiety related problems and conditions.',
-      cta: 'Read on Medium',
-      path: 'https://medium.com/@utopastac/how-to-make-good-things-while-being-good-to-each-other-3a98236529da'
-    },
-  ]
-};
+import * as Collection from 'data/me/collection';
+import * as Books from 'data/me/books';
 
 export const PAGES = [
   {
-    title: 'About me',
+    title: 'About',
+    date: 'Personal',
     intro: 'My life, my dogs, my family, my interests, and everything that makes me who I am.',
-    subtitle: '#### Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione',
-    path: `/about-me`,
+    subtitle: 'Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione',
+    path: `/about`,
+    links: [
+      {
+        title: 'Link',
+        subtitle: 'This is a link',
+        cta: 'Hello',
+        path: '/go'
+      }
+    ],
     data: About.DATA
   },
   {
     title: 'Collection',
+    date: 'Personal',
     intro: 'Playpress is a toy company I founded with my brother, creating award-winning, eco-friendly playsets.',
-    subtitle: '#### Playpress is a set of construction toys, designed and manufactured in the UK. Made out of recycled cardboard, it is designed as an environmentally friendly, pocket-money price toy, but retaining all the fun of well-known brands like Lego.',
-    path: `/playpress`,
-    data: Playpress.DATA
+    subtitle: 'Playpress is a set of construction toys, designed and manufactured in the UK. Made out of recycled cardboard, it is designed as an environmentally friendly, pocket-money price toy, but retaining all the fun of well-known brands like Lego.',
+    path: `/collection`,
+    data: Collection.DATA
   },
   {
     title: `Vintage Children's books`,
+    date: 'Personal',
     intro: 'Portraits of people I have seen out and about in a pixelated style, drawn on my phone with Memopad.',
-    subtitle: '#### Sometimes when I have downtime, on the train or while waiting, I like to draw the people I see.',
-    path: `/pixel-portraits`,
-    data: Pixel.DATA
+    subtitle: 'Sometimes when I have downtime, on the train or while waiting, I like to draw the people I see.',
+    path: `/books`,
+    data: Books.DATA
   },
   {
     title: 'Email',

@@ -10,7 +10,7 @@ import UseSetTheme from 'hooks/UseSetTheme';
 
 function Content(props) {
   
-  const { data, title, subtitle, date, theme } = props;
+  const { data, title, subtitle, date, links, theme } = props;
   const { pages } = data;
 
   const [overlayOpen, setOverlayOpen] = useState(false);
@@ -35,7 +35,7 @@ function Content(props) {
     <div className={styles.Main}>
 
       <PageHeader
-        data={{title: title, subtitle:subtitle, date: date}}
+        data={{title: title, subtitle:subtitle, date: date, links: links}}
       />
 
       <section className={styles.content}>

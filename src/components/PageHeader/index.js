@@ -23,14 +23,13 @@ export default function PageHeader(props) {
     <section className={styles.Main}>
       <header>
         <h5>{ data.date }</h5>
-        <h1>{data.title}</h1>
+        <h1>{ data.title }</h1>
         <div className={styles.content}>
-          <Markdown copy={data.subtitle} />
+          <Markdown copy={ data.subtitle } />
         </div>
       </header>
       {data.links &&
         <div className={styles.links}>
-          {/* <h5>Writing</h5> */}
           <div>{ links }</div>
         </div>
       }

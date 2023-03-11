@@ -33,7 +33,7 @@ export const NAV_ITEMS = [
     landingTheme: Colors.WHITE_THEME
   },
   {
-    title: 'Me',
+    title: 'Personal',
     data: MeData,
     path: ME_PATH,
     links: (<LinkSet data={MeData} basePath={ME_PATH} />),

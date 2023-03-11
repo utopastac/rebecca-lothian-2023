@@ -1,4 +1,4 @@
-import * as Twitter from 'data/work/twitter';
+import * as Girlswear from 'data/work/girlswear';
 import image1 from 'images/content/twitter-1.jpg';
 
 export const TITLE_BLOCK = {
@@ -10,12 +10,12 @@ export const TITLE_BLOCK = {
 
 export const PAGES = [
   {
-    title: 'Twitter',
-    date: '2021',
+    title: 'Girlswear',
+    date: 'Work',
     image: image1,
     intro: 'At Twitter, I am leading design for subscriptions as a Staff product designer in the revenue diversity team.',
     subtitle: "I joined Twitter at a time of accelerating product change to help lead design in the revenue diversity space. I am primarily focused on imprving on consumer subscription product, Twitter Blue.",
-    path: `/twitter`,
-    data: Twitter.DATA
+    path: `/girlswear`,
+    data: Girlswear.DATA
   },
 ]
