@@ -64,7 +64,8 @@ $bigUnits: 40
 
 @mixin background-block($col, $offset)
   position: absolute
-  border: 1px solid $col
+  background: $col
+  mix-blend-mode: multiply
   @extend %elevation-1
   @include animate(0.5s)
   opacity: 0

@@ -3,9 +3,17 @@
 .Main
   cursor: pointer
   color: $black
-  max-width: $text-max-width
+  display: block
   position: relative
   margin-bottom: $space-l
+
+  .container
+    display: grid
+    grid-template-columns: 2fr 1fr
+    grid-gap: $space-s 
+
+  .content
+    max-width: $text-max-width
   
   p
     @extend %body-m
@@ -14,11 +22,11 @@
     @extend %body-m
     @extend %medium
     
-  h4
-    @extend %heading-m
+  h2
+    @extend %heading-l
     
   .backer
-    @include background-block($white, -units(6))
+    @include background-block($peach-200, -units(6))
     
   header
     margin-bottom: units(3)
@@ -32,12 +40,3 @@
     header
       background-position: right units(3) center
       text-decoration: underline
-      
-    .block
-      //display: block
-    
-  .block
-    height: units(1)
-    background: $black
-    width: $block-width
-    display: none

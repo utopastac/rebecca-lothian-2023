@@ -2,7 +2,7 @@
 // FONTS //
 //
 //
-$font-heading: 'Inter','NotoSans','NotoSansJP','NotoSansKR',sans-serif
+$font-heading: 'Alegreya','NotoSans','NotoSansJP','NotoSansKR',sans-serif
 $font-paragraph: 'Inter', 'NotoSans','NotoSansJP','NotoSansKR',sans-serif
 $font-paragraph-bold: 'Inter', 'NotoSans','NotoSansJP','NotoSansKR',sans-serif
 $font-paragraph-extra-bold: 'Inter', 'NotoSans','NotoSansJP','NotoSansKR',sans-serif
@@ -13,26 +13,40 @@ $font-medium-weight: 500 !default
 $font-bold-weight: 600 !default
 $font-extra-bold-weight: 700 !default
 //
-$font-heading-weight: $font-bold-weight
+$font-heading-weight: $font-medium-weight
 //
 // TYPOGRAPHY
 //
-$type-size-xl: 48 
-$type-size-l: 32 
-$type-size-m: 24 
-$type-size-s: 20
-$type-size-xs: 16
+$type-size-xl: 40 
+$type-size-l: 28 
+$type-size-m: 18 
+$type-size-s: 16
+$type-size-xs: 14
 //
 $type-size-xl-mobile: 32 
 $type-size-l-mobile: 24 
-$type-size-m-mobile: 20
-$type-size-s-mobile: 18
-$type-size-xs-mobile: 15
+$type-size-m-mobile: 16
+$type-size-s-mobile: 14
+$type-size-xs-mobile: 13
+//
+//
+$type-size-heading-xl: 44 
+$type-size-heading-l: 32 
+$type-size-heading-m: 20 
+$type-size-heading-s: 18
+$type-size-heading-xs: 15
+//
+$type-size-heading-xl-mobile: 32 
+$type-size-heading-l-mobile: 26 
+$type-size-heading-m-mobile: 17
+$type-size-heading-s-mobile: 15
+$type-size-heading-xs-mobile: 14
+
 //
 $heading-line-height: 135%
 $body-line-height: 150%
 //
-$heading-letter-spacing: -0.02
+$heading-letter-spacing: 0.02
 $body-letter-spacing: 0
 $all-caps-letter-spacing: 0.1
 //
@@ -77,33 +91,33 @@ $all-caps-letter-spacing: 0.1
 //
 %heading-xl
   @extend %heading
-  @include fontSize($type-size-xl-mobile, $heading-line-height, $heading-letter-spacing)
+  @include fontSize($type-size-heading-xl-mobile, $heading-line-height, $heading-letter-spacing)
   @include min($screen-l)
-    @include fontSize($type-size-xl, $heading-line-height, $heading-letter-spacing)
+    @include fontSize($type-size-heading-xl, $heading-line-height, $heading-letter-spacing)
 
 %heading-l
   @extend %heading
-  @include fontSize($type-size-l-mobile, $heading-line-height, $heading-letter-spacing)
+  @include fontSize($type-size-heading-l-mobile, $heading-line-height, $heading-letter-spacing)
   @include min($screen-l)
-    @include fontSize($type-size-l, $heading-line-height, $heading-letter-spacing)
+    @include fontSize($type-size-heading-l, $heading-line-height, $heading-letter-spacing)
 
 %heading-m
   @extend %heading
-  @include fontSize($type-size-m-mobile, $heading-line-height, $heading-letter-spacing)
+  @include fontSize($type-size-heading-m-mobile, $heading-line-height, $heading-letter-spacing)
   @include min($screen-l)
-    @include fontSize($type-size-m, $heading-line-height, $heading-letter-spacing)
+    @include fontSize($type-size-heading-m, $heading-line-height, $heading-letter-spacing)
     
 %heading-s
   @extend %heading
-  @include fontSize($type-size-s-mobile, $heading-line-height, $heading-letter-spacing)
+  @include fontSize($type-size-heading-s-mobile, $heading-line-height, $heading-letter-spacing)
   @include min($screen-l)
-    @include fontSize($type-size-s, $heading-line-height, $heading-letter-spacing)
+    @include fontSize($type-size-heading-s, $heading-line-height, $heading-letter-spacing)
     
 %heading-xs
   @extend %heading
-  @include fontSize($type-size-xs-mobile, $heading-line-height, $heading-letter-spacing)
+  @include fontSize($type-size-heading-xs-mobile, $heading-line-height, $heading-letter-spacing)
   @include min($screen-l)
-    @include fontSize($type-size-xs, $heading-line-height, $heading-letter-spacing)
+    @include fontSize($type-size-heading-xs, $heading-line-height, $heading-letter-spacing)
 //
 //
 //
@@ -158,7 +172,7 @@ $all-caps-letter-spacing: 0.1
 //
 %typography-hierarchy
   p
-    @extend %body-m
+    @extend %body-s
     @extend %paragraph
     
   a

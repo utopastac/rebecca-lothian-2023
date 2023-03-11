@@ -1,4 +1,4 @@
 export const TITLE_BLOCK = {
-  title: 'I’m Peter, a principal product designer, creative prototyper, & researcher.',
-  subtitle: '#### I’ve worked at [Google](/#/work/google), [Spotify](/#/work/spotify), and [Meta](/#/work/meta), founded [startups](/#/work/circles), created a toy [company](/#/me/playpress), and led design for internal [innovation teams](/#/work/m-and-s). I design and facilitate creative [workshops](/#/process/workshops), [design sprints](/#/process/design-sprints), and have extensive [front-end development](/#/process/front-end-development) experience.',
+  title: 'I’m Rebecca, a designer who focuses on childrenswear, surface patterns, and products for younger people.',
+  subtitle: `#### I’ve worked at Jojo Maman Bebe, Bonnie Baby, and Cath Kidston, as well as producing illustrations and toy designs for Playpress Toys. I love all aspects of children's design, and I am a passionate collector of vintage childrenswear and illustrated books. I pride myself on having high taste levels and attention to detail.`,
 };

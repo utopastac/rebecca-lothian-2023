@@ -1,11 +1,9 @@
 @import 'styles/site.sass'
 
 .Main
-  position: sticky
-  top: 0
-  z-index: $z-navigation
   height: $nav-bar-height
   background-color: white
+  padding: 0 $space-xs
   
   @include max($screen-l)
   @include min($screen-l)
@@ -22,9 +20,22 @@
     // mix-blend-mode: multiply
     display: flex
     align-items: center
-    justify-content: space-between
     position: relative
     height: 100%
+
+    @include min($screen-l)
+      justify-content: space-between
+
+    @include max($screen-m)
+      > div:not(:first-child)
+        display: none
+    
+    @include max($screen-l)
+      > div
+        padding-right: $space-l
+        
+      > div:last-child
+        display: none
 
     > div:last-child()
       text-align: right

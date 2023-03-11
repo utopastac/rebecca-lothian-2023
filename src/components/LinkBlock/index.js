@@ -1,22 +1,24 @@
 import React from "react";
 import PropTypes from 'prop-types';
 import { Link } from "react-router-dom";
+import Image from 'components/Image';
 import styles from "./index.module.sass";
 
 export default function LinkBlock(props) {
-  const { title, intro, date, basePath, path, type } = props;
+  const { title, intro, image, date, basePath, path, type } = props;
   if(type==='link') return null;
   return (
     <Link to={`${basePath}${path}`} className={styles.Main}>
       <div className={styles.backer} />
-      <header>
-        {date &&
-          <h5>{date}</h5>
-        }
-        <h4>{title}</h4>
-      </header>
-      <p>{intro}</p>
-      <div className={styles.block}></div>
+      <div className={styles.container}>
+        <Image img={image} alt='Portfolio item image' />
+        <div>
+          <header>
+            <h2>{title}</h2>
+          </header>
+          <p>{intro}</p>
+        </div>
+      </div>
     </Link>
   );
 }

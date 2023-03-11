@@ -1,8 +1,7 @@
 import React from "react";
 import styles from "./index.module.sass";
 import MainContent from "containers/MainContent";
-import PageHeader from "components/PageHeader";
-import SectionTitle from 'components/SectionTitle';
+import Markdown from 'components/Markdown';
 import LinkBlock from "components/LinkBlock";
 
 import * as Data from 'data/home';
@@ -26,14 +25,15 @@ export default function Home(props) {
 
   return (
     <div className={styles.Main}>
-
-      <PageHeader data={TITLE_BLOCK} />
+      <MainContent>
+        <header>
+          <h1>{TITLE_BLOCK.title}</h1>
+          <Markdown copy={TITLE_BLOCK.subtitle} />
+        </header>
+      </MainContent>
 
       <section className={styles.resume}>
         <MainContent>
-          <header>
-            <SectionTitle title='Resumé' color={Colors.BLACK} />
-          </header>
           <div className={styles.content}>
             {resumeElements}
           </div>

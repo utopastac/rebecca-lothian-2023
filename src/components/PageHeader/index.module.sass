@@ -2,15 +2,18 @@
 
 .Main
   position: relative
-  background: $peach-200
-  color: $yolk
-  padding: $space-l 0 $space-m 0
+  background: $white
+  color: $black
+  padding: $space-xs
   
   @include min($screen-l)
-    padding: $space-l 0
-    min-height: 100vh
+    padding: $space-m
     flex: 0
     min-width: $info-bar-width
+    position: sticky
+    align-self: flex-start
+    top: 0
+    left: 0
 
   header
     position: relative
@@ -18,8 +21,9 @@
     
     .content
       flex: 1
+      margin-top: units(3)
       
-      @include max($screen-l)
+      @include min($screen-l)
         margin-top: units(8)
 
     h1
@@ -29,7 +33,9 @@
       @extend %body-l
     
     h5
-      @extend %heading-m
+      @extend %body-m
+      @extend %medium
+      margin-bottom: -units(1)
     
 .links
   padding: $space-m 0
