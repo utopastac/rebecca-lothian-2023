@@ -1,9 +1,5 @@
 import {SECTIONS} from 'data/work/pageBasics';
-import image1 from 'images/content/twitter-1.jpg';
-import image2 from 'images/content/twitter-news.jpg';
-import image3 from 'images/content/twitter-news-b.jpg';
-import image4 from 'images/content/twitter-cta.jpg';
-import image5 from 'images/content/twitter-nav.jpg';
+import image1 from 'images/content/bec_young.jpg';
 
 export const DATA = {
   pages: [
@@ -29,25 +25,26 @@ export const DATA = {
         },
         {
           type: 'image',
-          img: image2,
+          img: image1,
           alt: 'Twitter work example',
+          half: true,
           caption: `Our vision focused around news and access.`
         },
         {
           type: 'image',
-          img: image3,
+          img: image1,
           alt: 'Twitter work example',
           caption: ``
         },
         {
           type: 'image',
-          img: image4,
+          img: image1,
           alt: 'Twitter work example',
           caption: ``
         },
         {
           type: 'image',
-          img: image5,
+          img: image1,
           alt: 'Twitter work example',
           caption: `We experimented with how to best integrate Twitter Blue into the app main navigation.`
         },

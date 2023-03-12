@@ -4,7 +4,25 @@ import Image from 'components/Image';
 import styles from "./index.module.sass";
 
 export default function ImageGrid(props) {
-  const { img, alt } = props;
+  const { img, alt, col } = props;
+
+  let columns;
+  if(col){
+    switch(col){
+      case 2:
+        columns = styles.two
+        break;
+      case 3:
+        columns = styles.three
+        break;
+      case 4:
+        columns = styles.four
+        break;
+      case 5:
+        columns = styles.five
+        break;
+    }
+  }
   
   const images = img.map((image, index)=>{
     return (
@@ -15,7 +33,7 @@ export default function ImageGrid(props) {
   });
   
   return (
-    <div className={styles.Main}>
+    <div className={`${styles.Main} ${col ? columns: ''}`}>
       {images}
     </div>
   );
@@ -23,5 +41,6 @@ export default function ImageGrid(props) {
 
 ImageGrid.propTypes = {
   img: PropTypes.array.isRequired,
-  alt: PropTypes.string.isRequired
+  alt: PropTypes.string.isRequired,
+  col: PropTypes.number
 };

@@ -17,6 +17,11 @@
   &.full
     width: 100%
     max-width: unset
+
+  &.half
+    display: grid
+    grid-template-columns: 1.5fr 1fr
+    grid-gap: $space-xs 
     
   .caption
     @extend %body-xs
