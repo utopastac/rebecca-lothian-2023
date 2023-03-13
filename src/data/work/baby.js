@@ -34,7 +34,6 @@ export const DATA = {
           type: 'copy',
           copy: `
   ## Watermelon
-  Words.
           `
         },
         {
@@ -84,7 +83,6 @@ export const DATA = {
           type: 'copy',
           copy: `
   ## Jojo Maman Bebe
-  Words.
           `
         },
         {
@@ -138,7 +136,6 @@ export const DATA = {
           type: 'copy',
           copy: `
   ## Bonnie Baby
-  Words.
           `
         },
         {

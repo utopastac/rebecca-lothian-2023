@@ -3,11 +3,11 @@ import * as Boyswear from 'data/work/boyswear';
 import * as Babywear from 'data/work/baby';
 import * as Print from 'data/work/print';
 import * as Products from 'data/work/products';
-import Girls from 'images/girls/bonniebaby3.jpg';
-import Boys from 'images/girls/bonniebaby3.jpg';
-import Baby from 'images/girls/bonniebaby3.jpg';
-import PrintImage from 'images/girls/bonniebaby3.jpg';
-import Product from 'images/girls/bonniebaby3.jpg';
+import Girls from 'images/girls.jpg';
+import Boys from 'images/boys.jpg';
+import Baby from 'images/baby.jpg';
+import PrintImage from 'images/print.jpg';
+import Product from 'images/product.jpg';
 
 export const TITLE_BLOCK = {
   title: 'Work',

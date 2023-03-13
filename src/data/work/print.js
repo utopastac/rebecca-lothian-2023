@@ -26,7 +26,6 @@ export const DATA = {
           type: 'copy',
           copy: `
   ## Floral
-  Words.
           `
         },
         {
@@ -58,7 +57,6 @@ export const DATA = {
           type: 'copy',
           copy: `
   ## Conversational
-  Words.
           `
         },
         {
@@ -95,7 +93,6 @@ export const DATA = {
           type: 'copy',
           copy: `
   ## Hand drawn
-  Words.
           `
         },
         {

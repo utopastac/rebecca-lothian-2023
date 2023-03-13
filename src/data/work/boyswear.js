@@ -22,7 +22,6 @@ export const DATA = {
           type: 'copy',
           copy: `
   ## Freelance
-  Words.
           `
         },
         {
@@ -60,7 +59,6 @@ export const DATA = {
           type: 'copy',
           copy: `
   ## Bonnie Baby
-  Words.
           `
         },
         {
@@ -80,7 +78,6 @@ export const DATA = {
           type: 'copy',
           copy: `
   ## Jojo Maman Bebe
-  Words.
           `
         },
         {

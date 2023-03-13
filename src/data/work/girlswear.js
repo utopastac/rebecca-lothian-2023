@@ -3,6 +3,9 @@ import Laura1 from 'images/girls/lauraashley1.jpg';
 import Laura2 from 'images/girls/laurashley2.jpg';
 import Laura3 from 'images/girls/lauraashley3.jpg';
 //
+import Watermelon1 from 'images/girls/watermelon3.jpg';
+import Watermelon2 from 'images/girls/watermelon5.jpg';
+//
 import Bonnie1 from 'images/girls/bonniebaby1.jpg';
 import Bonnie2 from 'images/girls/bonniebaby2.jpg';
 import Bonnie3 from 'images/girls/bonniebaby3.jpg';
@@ -44,7 +47,6 @@ export const DATA = {
           type: 'copy',
           copy: `
   ## Freelance
-  Words.
           `
         },
         {
@@ -129,37 +131,6 @@ export const DATA = {
     },
     {
       ...SECTIONS.section,
-      title: 'Laura Ashley',
-      path: '#lauraashley',
-      data: [
-        {
-          type: 'copy',
-          copy: `
-  ## Laura Ashley
-  Words.
-          `
-        },
-        {
-          type: 'image',
-          img: Laura1,
-          alt: 'Laura Ashley work example',
-          caption: ``
-        },
-        {
-          type: 'image',
-          img: Laura2,
-          alt: 'Laura Ashley work example',
-        },
-        {
-          type: 'image',
-          img: Laura3,
-          alt: 'Laura Ashley work example',
-          caption: ``
-        },
-      ]
-    },
-    {
-      ...SECTIONS.section,
       title: 'Bonnie Baby',
       path: '#bonniebaby',
       data: [
@@ -167,7 +138,6 @@ export const DATA = {
           type: 'copy',
           copy: `
   ## Bonnie Baby
-  Words.
           `
         },
         {
@@ -191,6 +161,30 @@ export const DATA = {
     },
     {
       ...SECTIONS.section,
+      title: 'Watermelon',
+      path: '#watermelon',
+      data: [
+        {
+          type: 'copy',
+          copy: `
+  ## Watermelon
+          `
+        },
+        {
+          type: 'image',
+          img: Watermelon1,
+          alt: 'Watermelon work example',
+          caption: ``
+        },
+        {
+          type: 'image',
+          img: Watermelon2,
+          alt: 'Watermelon work example',
+        }
+      ]
+    },
+    {
+      ...SECTIONS.section,
       title: 'Jojo Maman Bebe',
       path: '#jojo',
       data: [
@@ -198,7 +192,6 @@ export const DATA = {
           type: 'copy',
           copy: `
   ## Jojo Maman Bebe
-  Words.
           `
         },
         {
@@ -206,11 +199,6 @@ export const DATA = {
           img: Jojo1,
           alt: 'Jojo work example',
           caption: ``
-        },
-        {
-          type: 'image',
-          img: Jojo2,
-          alt: 'Jojo work example',
         },
         {
           type: 'image',
@@ -241,7 +229,6 @@ export const DATA = {
           type: 'copy',
           copy: `
   ## Cath Kidston
-  Words.
           `
         },
         {
@@ -271,6 +258,36 @@ export const DATA = {
           type: 'image',
           img: Cath5,
           alt: 'Cath Kidston work example',
+          caption: ``
+        },
+      ]
+    },
+    {
+      ...SECTIONS.section,
+      title: 'Laura Ashley',
+      path: '#lauraashley',
+      data: [
+        {
+          type: 'copy',
+          copy: `
+  ## Laura Ashley
+          `
+        },
+        {
+          type: 'image',
+          img: Laura1,
+          alt: 'Laura Ashley work example',
+          caption: ``
+        },
+        {
+          type: 'image',
+          img: Laura2,
+          alt: 'Laura Ashley work example',
+        },
+        {
+          type: 'image',
+          img: Laura3,
+          alt: 'Laura Ashley work example',
           caption: ``
         },
       ]
