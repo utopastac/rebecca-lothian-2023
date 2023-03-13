@@ -14,6 +14,12 @@ export const PAGES = [
         subtitle: 'An Instagram account where I detail my finds in childrenswear and vintage.',
         cta: 'Hello',
         path: 'https://instagram.com/dovetail_child'
+      },
+      {
+        title: 'Inspiration Pinterest',
+        subtitle: 'My Pinterest account where I save all interesting visual inspiration.',
+        cta: 'Hello',
+        path: 'https://www.pinterest.co.uk/Narrative_vintage/'
       }
     ],
     data: About.DATA
@@ -45,5 +51,12 @@ export const PAGES = [
     title: 'Childrenswear instagram',
     type: 'link',
     path: `https://instagram.com/dovetail_child`,
+  },
+  {
+    title: 'Inspiration Pinterest',
+    type: 'link',
+    path: `https://www.pinterest.co.uk/Narrative_vintage/`,
   }
 ]
+
+

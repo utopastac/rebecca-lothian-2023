@@ -13,7 +13,7 @@ export const DATA = {
         {
           type: 'copy',
           copy: `
-  # Collection
+  ## Collection
   Coming soon, a look into my extensive vintage collection of clothing and childrens books.
           `
         },
