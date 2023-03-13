@@ -18,13 +18,50 @@ import Bonnie7 from 'images/baby/bonniebaby_7.jpg';
 import Jojo1 from 'images/baby/jojo baby1.jpg';
 import Jojo2 from 'images/baby/jojo baby2.jpg';
 import Jojo3 from 'images/baby/jojo baby3.jpg';
-import Jojo4 from 'images/baby/babywearmood_happy.jpg';
-import Jojo5 from 'images/baby/babywear_happy.jpg';
-import Jojo6 from 'images/baby/babyboys_mood.jpg';
-import Jojo7 from 'images/baby/babyboyswear_range.jpg';
+//
+import Free1 from 'images/baby/babywearmood_happy.jpg';
+import Free2 from 'images/baby/babywear_happy.jpg';
+import Free3 from 'images/baby/babyboys_mood.jpg';
+import Free4 from 'images/baby/babyboyswear_range.jpg';
 
 export const DATA = {
   pages: [
+    {
+      ...SECTIONS.section,
+      title: 'Freelance',
+      path: '#freelance',
+      data: [
+        {
+          type: 'copy',
+          copy: `
+  ## Freelance
+          `
+        },
+        {
+          type: 'image',
+          img: Free1,
+          alt: 'Freelance work example',
+          caption: ``
+        },
+        {
+          type: 'image',
+          img: Free2,
+          alt: 'Freelance work example',
+        },
+        {
+          type: 'image',
+          img: Free3,
+          alt: 'Freelance work example',
+          caption: ``
+        },
+        {
+          type: 'image',
+          img: Free4,
+          alt: 'Freelance work example',
+          caption: ``
+        }
+      ]
+    },
     {
       ...SECTIONS.section,
       title: 'Watermelon',
@@ -101,30 +138,7 @@ export const DATA = {
           img: Jojo3,
           alt: 'Jojo work example',
           caption: ``
-        },
-        {
-          type: 'image',
-          img: Jojo4,
-          alt: 'Jojo work example',
-          caption: ``
-        },
-        {
-          type: 'image',
-          img: Jojo5,
-          alt: 'Jojo work example',
-        },
-        {
-          type: 'image',
-          img: Jojo6,
-          alt: 'Jojo work example',
-          caption: ``
-        },
-        {
-          type: 'image',
-          img: Jojo7,
-          alt: 'Jojo work example',
-          caption: ``
-        },
+        }
       ]
     },
     {

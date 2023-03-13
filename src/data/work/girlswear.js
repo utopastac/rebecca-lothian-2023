@@ -109,12 +109,12 @@ export const DATA = {
           alt: 'Freelance work example',
           caption: ``
         },
-        {
-          type: 'image',
-          img: Free11,
-          alt: 'Freelance work example',
-          caption: ``
-        },
+        // {
+        //   type: 'image',
+        //   img: Free11,
+        //   alt: 'Freelance work example',
+        //   caption: ``
+        // },
         {
           type: 'image',
           img: Free12,
