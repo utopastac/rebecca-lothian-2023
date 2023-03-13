@@ -1,5 +1,5 @@
 import * as Content from 'components/Content';
-import cat from 'images/pixel/p1.PNG';
+import cat from 'images/inspiration/p1.PNG';
 
 export const SECTIONS = {
   peerQuotes: {
@@ -24,7 +24,6 @@ export const SECTIONS = {
     component: Content.Section,
     title: 'Oversight',
     path: '#oversight',
-    sub: true,
     data: [
       {
         type: 'copy',

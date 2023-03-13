@@ -1,5 +1,5 @@
 import {SECTIONS} from 'data/work/pageBasics';
-import p1 from 'images/pixel/p1.PNG';
+import p1 from 'images/inspiration/p1.PNG';
 
 export const DATA = {
   meta: [

@@ -1,9 +1,13 @@
 import * as Girlswear from 'data/work/girlswear';
-import * as Boyswear from 'data/work/girlswear';
-import * as Babywear from 'data/work/girlswear';
-import * as Print from 'data/work/girlswear';
-import * as Products from 'data/work/girlswear';
-import image1 from 'images/content/bec_young.jpg';
+import * as Boyswear from 'data/work/boyswear';
+import * as Babywear from 'data/work/baby';
+import * as Print from 'data/work/print';
+import * as Products from 'data/work/products';
+import Girls from 'images/girls/bonniebaby3.jpg';
+import Boys from 'images/girls/bonniebaby3.jpg';
+import Baby from 'images/girls/bonniebaby3.jpg';
+import PrintImage from 'images/girls/bonniebaby3.jpg';
+import Product from 'images/girls/bonniebaby3.jpg';
 
 export const TITLE_BLOCK = {
   title: 'Work',
@@ -16,7 +20,7 @@ export const PAGES = [
   {
     title: 'Girlswear',
     date: 'Work',
-    image: image1,
+    image: Girls,
     intro: 'At Twitter, I am leading design for subscriptions as a Staff product designer in the revenue diversity team.',
     subtitle: "I joined Twitter at a time of accelerating product change to help lead design in the revenue diversity space. I am primarily focused on imprving on consumer subscription product, Twitter Blue.",
     path: `/girlswear`,
@@ -25,7 +29,7 @@ export const PAGES = [
   {
     title: 'Boyswear',
     date: 'Work',
-    image: image1,
+    image: Boys,
     intro: 'At Twitter, I am leading design for subscriptions as a Staff product designer in the revenue diversity team.',
     subtitle: "I joined Twitter at a time of accelerating product change to help lead design in the revenue diversity space. I am primarily focused on imprving on consumer subscription product, Twitter Blue.",
     path: `/boysswear`,
@@ -34,7 +38,7 @@ export const PAGES = [
   {
     title: 'Babywear',
     date: 'Work',
-    image: image1,
+    image: Baby,
     intro: 'At Twitter, I am leading design for subscriptions as a Staff product designer in the revenue diversity team.',
     subtitle: "I joined Twitter at a time of accelerating product change to help lead design in the revenue diversity space. I am primarily focused on imprving on consumer subscription product, Twitter Blue.",
     path: `/babywear`,
@@ -43,7 +47,7 @@ export const PAGES = [
   {
     title: 'Print',
     date: 'Work',
-    image: image1,
+    image: PrintImage,
     intro: 'At Twitter, I am leading design for subscriptions as a Staff product designer in the revenue diversity team.',
     subtitle: "I joined Twitter at a time of accelerating product change to help lead design in the revenue diversity space. I am primarily focused on imprving on consumer subscription product, Twitter Blue.",
     path: `/print`,
@@ -52,7 +56,7 @@ export const PAGES = [
   {
     title: 'Products',
     date: 'Work',
-    image: image1,
+    image: Product,
     intro: 'At Twitter, I am leading design for subscriptions as a Staff product designer in the revenue diversity team.',
     subtitle: "I joined Twitter at a time of accelerating product change to help lead design in the revenue diversity space. I am primarily focused on imprving on consumer subscription product, Twitter Blue.",
     path: `/products`,

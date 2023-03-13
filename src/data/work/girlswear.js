@@ -1,78 +1,279 @@
 import {SECTIONS} from 'data/work/pageBasics';
-import image1 from 'images/content/bec_young.jpg';
+import Laura1 from 'images/girls/lauraashley1.jpg';
+import Laura2 from 'images/girls/laurashley2.jpg';
+import Laura3 from 'images/girls/lauraashley3.jpg';
+//
+import Bonnie1 from 'images/girls/bonniebaby1.jpg';
+import Bonnie2 from 'images/girls/bonniebaby2.jpg';
+import Bonnie3 from 'images/girls/bonniebaby3.jpg';
+//
+import Jojo1 from 'images/girls/jojo1.jpg';
+import Jojo2 from 'images/girls/jojo1.jpg';
+import Jojo3 from 'images/girls/jojo4.jpg';
+import Jojo4 from 'images/girls/jojo6.jpg';
+import Jojo5 from 'images/girls/jojo5.jpg';
+//
+import Cath1 from 'images/girls/cathkidston1.jpg';
+import Cath2 from 'images/girls/cathkidston2.jpg';
+import Cath3 from 'images/girls/cathkidston3.jpg';
+import Cath4 from 'images/girls/cathkidston4.jpg';
+import Cath5 from 'images/girls/cathkidstonmood1.jpg';
+//
+import Free1 from 'images/girls/girlswearmood_sun.jpg';
+import Free2 from 'images/girls/girlswearrange_sun.jpg';
+import Free3 from 'images/girls/girlswearprint_sun.jpg';
+import Free4 from 'images/girls/girlswearmood_coral.jpg';
+import Free5 from 'images/girls/girlswearrange_coral.jpg';
+import Free6 from 'images/girls/girlswearlineup_coral.jpg';
+import Free7 from 'images/girls/girlswearmood_indigo.jpg';
+import Free8 from 'images/girls/girlswearlineup_indigp.jpg';
+import Free9 from 'images/girls/girlswearmood-bright.jpg';
+import Free10 from 'images/girls/girlswearrange_bright.jpg';
+import Free11 from 'images/girls/girlswearlineup_bright.jpg';
+import Free12 from 'images/girls/girlswearrange_red.jpg';
+import Free13 from 'images/girls/girlswearmood_red.jpg';
 
 export const DATA = {
   pages: [
     {
       ...SECTIONS.section,
-      title: 'Twitter Blue Vision',
+      title: 'Freelance',
+      path: '#freelance',
       data: [
         {
           type: 'copy',
           copy: `
-  ### Twitter Blue Vision
-  Within the Revenue Diversity org, I work leading design for the subscriptions team. We are focused on creating product market fit for a first of it's kind consumer subscription for Twitter power users. As part of this, I am leading long term vision work to set the strategy for the team for the upcoming year.
-  &nbsp;  
-  &nbsp;  
-  This work is considered crucial in the company for growing sustainability in our revenue sources. I am working to drive excitement and alignment throughout the company, working closely with our design systems team to build a truly desirable product.
+  ## Freelance
+  Words.
           `
         },
         {
           type: 'image',
-          img: image1,
-          alt: 'Twitter work example',
+          img: Free1,
+          alt: 'Freelance work example',
           caption: ``
         },
         {
           type: 'image',
-          img: image1,
-          alt: 'Twitter work example',
-          half: true,
-          caption: `Our vision focused around news and access.`
-        },
-        {
-          type: 'image',
-          img: image1,
-          alt: 'Twitter work example',
+          img: Free2,
+          alt: 'Freelance work example',
           caption: ``
         },
         {
           type: 'image',
-          img: image1,
-          alt: 'Twitter work example',
+          img: Free3,
+          alt: 'Freelance work example',
           caption: ``
         },
         {
           type: 'image',
-          img: image1,
-          alt: 'Twitter work example',
-          caption: `We experimented with how to best integrate Twitter Blue into the app main navigation.`
+          img: Free4,
+          alt: 'Freelance work example',
+          caption: ``
+        },
+        {
+          type: 'image',
+          img: Free5,
+          alt: 'Freelance work example',
+          caption: ``
+        },
+        {
+          type: 'image',
+          img: Free6,
+          alt: 'Freelance work example',
+          caption: ``
+        },
+        {
+          type: 'image',
+          img: Free7,
+          alt: 'Freelance work example',
+          caption: ``
+        },
+        {
+          type: 'image',
+          img: Free8,
+          alt: 'Freelance work example',
+          caption: ``
+        },
+        {
+          type: 'image',
+          img: Free9,
+          alt: 'Freelance work example',
+          caption: ``
+        },
+        {
+          type: 'image',
+          img: Free10,
+          alt: 'Freelance work example',
+          caption: ``
+        },
+        {
+          type: 'image',
+          img: Free11,
+          alt: 'Freelance work example',
+          caption: ``
+        },
+        {
+          type: 'image',
+          img: Free12,
+          alt: 'Freelance work example',
+          caption: ``
+        },
+        {
+          type: 'image',
+          img: Free13,
+          alt: 'Freelance work example',
+          caption: ``
         },
       ]
     },
     {
-      ...SECTIONS.peerQuotes,
-      quotes: [
+      ...SECTIONS.section,
+      title: 'Laura Ashley',
+      path: '#lauraashley',
+      data: [
         {
-          content: `Peter joined the Twitter Blue team as the project was reaching maturity. He bought so much enthusiasm and energy into the project and team. I absolutely loved the way he iterated on ideas and research with so much speed and shared that work throughout the team.
-          
-Peter's candour is one of my favourite things about him. You can always have an honest conversation with him. He is also one of the nicest guys I have met. Every-time I see him I come away happy! He is an incredible asset to any organisation.`,
-          attribution: 'Engineering lead'
+          type: 'copy',
+          copy: `
+  ## Laura Ashley
+  Words.
+          `
         },
         {
-          content: "Ideating and experimenting with Peter - for the first time - during Hack Week 22 at Twitter has been so much fun, and his can-do-attitude truly inspiring. As a design lead, his focus on the customer, learning and developing, openness to (wild) non-obvious ideas, and his intuitive problem-solving skills meant we were able to develop several demos successfully in just a couple days for our multi-layered blue sky product idea. Still can't grasp how that happened, though I know if it wasn't for Peter it wouldn't have.",
-          attribution: 'Conceptual design lead'
-        }
+          type: 'image',
+          img: Laura1,
+          alt: 'Laura Ashley work example',
+          caption: ``
+        },
+        {
+          type: 'image',
+          img: Laura2,
+          alt: 'Laura Ashley work example',
+        },
+        {
+          type: 'image',
+          img: Laura3,
+          alt: 'Laura Ashley work example',
+          caption: ``
+        },
       ]
     },
     {
-      ...SECTIONS.overview,
-      title: 'Team overview',
-      copy: `
-#### My role at Twitter is remote first, and requires a high degree of collaboration with teams across the company and the world. I work extremely closely with senior cross functional partners to build consensus around near future improvements and far off vision.
-&nbsp;  
-#### I am driving design and strategy for an ambiguous and ambitious effort that could re-shape how the company makes money.
-`
+      ...SECTIONS.section,
+      title: 'Bonnie Baby',
+      path: '#bonniebaby',
+      data: [
+        {
+          type: 'copy',
+          copy: `
+  ## Bonnie Baby
+  Words.
+          `
+        },
+        {
+          type: 'image',
+          img: Bonnie1,
+          alt: 'Bonnie Baby work example',
+          caption: ``
+        },
+        {
+          type: 'image',
+          img: Bonnie2,
+          alt: 'Bonnie Baby work example',
+        },
+        {
+          type: 'image',
+          img: Bonnie3,
+          alt: 'Bonnie Baby work example',
+          caption: ``
+        },
+      ]
     },
+    {
+      ...SECTIONS.section,
+      title: 'Jojo Maman Bebe',
+      path: '#jojo',
+      data: [
+        {
+          type: 'copy',
+          copy: `
+  ## Jojo Maman Bebe
+  Words.
+          `
+        },
+        {
+          type: 'image',
+          img: Jojo1,
+          alt: 'Jojo work example',
+          caption: ``
+        },
+        {
+          type: 'image',
+          img: Jojo2,
+          alt: 'Jojo work example',
+        },
+        {
+          type: 'image',
+          img: Jojo3,
+          alt: 'Jojo work example',
+          caption: ``
+        },
+        {
+          type: 'image',
+          img: Jojo4,
+          alt: 'Jojo work example',
+          caption: ``
+        },
+        {
+          type: 'image',
+          img: Jojo5,
+          alt: 'Jojo work example',
+          caption: ``
+        },
+      ]
+    },
+    {
+      ...SECTIONS.section,
+      title: 'Cath Kidston',
+      path: '#cathkidston',
+      data: [
+        {
+          type: 'copy',
+          copy: `
+  ## Cath Kidston
+  Words.
+          `
+        },
+        {
+          type: 'image',
+          img: Cath1,
+          alt: 'Cath Kidston work example',
+          caption: ``
+        },
+        {
+          type: 'image',
+          img: Cath2,
+          alt: 'Cath Kidston work example',
+        },
+        {
+          type: 'image',
+          img: Cath3,
+          alt: 'Cath Kidston work example',
+          caption: ``
+        },
+        {
+          type: 'image',
+          img: Cath4,
+          alt: 'Cath Kidston work example',
+          caption: ``
+        },
+        {
+          type: 'image',
+          img: Cath5,
+          alt: 'Cath Kidston work example',
+          caption: ``
+        },
+      ]
+    }
   ]
 }
