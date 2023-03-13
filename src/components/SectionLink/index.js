@@ -12,7 +12,7 @@ export default function SectionLink(props) {
     <a href={path} className={styles.Main}>
       <div className={styles.backer} />
       <header>
-        <h5>{title}</h5>
+        <h6>{title}</h6>
         <p>{subtitle}</p>
       </header>
     </a>

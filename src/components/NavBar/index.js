@@ -28,8 +28,10 @@ function NavBar(props) {
           <p>Select projects</p>
         </div>
         <div>
-          <h4>{year}</h4>
-          <p>&nbsp;</p>
+          <Link to={Data.HOME.path}>
+            <h4>Home</h4>
+            <p>{year}</p>
+          </Link>
         </div>
       </div>
     </div>

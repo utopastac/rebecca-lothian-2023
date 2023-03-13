@@ -49,7 +49,7 @@ function Content(props) {
 
   const handleScroll = (event) => {
     const inViewRefs = refs.current.filter((ref)=>{
-      if(ref !== null){
+      if(ref && ref.current.offsetTop !==null){
         return ref.current.offsetTop <= window.scrollY
       }
     });

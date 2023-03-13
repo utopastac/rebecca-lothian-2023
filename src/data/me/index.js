@@ -1,63 +1,49 @@
 import * as About from 'data/me/about';
-import * as Collection from 'data/me/collection';
-import * as Books from 'data/me/books';
+import * as Inspiration from 'data/me/inspiration';
 
 export const PAGES = [
   {
     title: 'About',
     date: 'Personal',
-    intro: 'My life, my dogs, my family, my interests, and everything that makes me who I am.',
-    subtitle: 'Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione',
+    intro: '...',
+    subtitle: 'I love all aspects of designing for children. My style is flexible and vintage inspired, and I take great pride in my design research.',
     path: `/about`,
     links: [
       {
-        title: 'Link',
-        subtitle: 'This is a link',
+        title: 'Childenswear Instagram',
+        subtitle: 'An Instagram account where I detail my finds in childrenswear and vintage.',
         cta: 'Hello',
-        path: '/go'
+        path: 'https://instagram.com/dovetail_child'
       }
     ],
     data: About.DATA
   },
   {
-    title: 'Collection',
+    title: 'Inspiration',
     date: 'Personal',
-    intro: 'Playpress is a toy company I founded with my brother, creating award-winning, eco-friendly playsets.',
-    subtitle: 'Playpress is a set of construction toys, designed and manufactured in the UK. Made out of recycled cardboard, it is designed as an environmentally friendly, pocket-money price toy, but retaining all the fun of well-known brands like Lego.',
-    path: `/collection`,
-    data: Collection.DATA
-  },
-  {
-    title: `Vintage Children's books`,
-    date: 'Personal',
-    intro: 'Portraits of people I have seen out and about in a pixelated style, drawn on my phone with Memopad.',
-    subtitle: 'Sometimes when I have downtime, on the train or while waiting, I like to draw the people I see.',
-    path: `/books`,
-    data: Books.DATA
+    intro: '...',
+    subtitle: 'I have a large collection of vintage childrenswear and illustrated books. I use these as inspiration for everything I make.',
+    path: `/inspiration`,
+    data: Inspiration.DATA
   },
   {
     title: 'Email',
     type: 'link',
-    path: `mailto:utopastac@gmail.com`,
+    path: `mailto:narrativevintage@gmail.com`,
   },
   {
     title: 'LinkedIn',
     type: 'link',
-    path: `https://www.linkedin.com/in/utopastac/`,
+    path: `https://www.linkedin.com/in/rebecca-lothian-5bb18945/`,
   },
   {
     title: 'Vintage Instagram',
     type: 'link',
-    path: `https://twitter.com/utopastac`,
+    path: `https://instagram.com/narra_tives`,
   },
   {
     title: 'Childrenswear instagram',
     type: 'link',
-    path: `https://medium.com/@utopastac`,
-  },
-  {
-    title: 'Pinterest',
-    type: 'link',
-    path: `https://medium.com/@utopastac`,
-  },
+    path: `https://instagram.com/dovetail_child`,
+  }
 ]

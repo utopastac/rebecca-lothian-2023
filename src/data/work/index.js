@@ -12,7 +12,7 @@ import Product from 'images/girls/bonniebaby3.jpg';
 export const TITLE_BLOCK = {
   title: 'Work',
   subtitle: `
-#### I am lucky enough to have worked on some amazing projects at incredible companies. I'm currently at Twitter, thinking about the future of revenue diversity and subscriptions.
+####.
 `,
 };
 
@@ -21,8 +21,8 @@ export const PAGES = [
     title: 'Girlswear',
     date: 'Work',
     image: Girls,
-    intro: 'At Twitter, I am leading design for subscriptions as a Staff product designer in the revenue diversity team.',
-    subtitle: "I joined Twitter at a time of accelerating product change to help lead design in the revenue diversity space. I am primarily focused on imprving on consumer subscription product, Twitter Blue.",
+    intro: 'Girlswear seasonal shape and print work for a variety of different companies. From vintage inspired silhouettes to hand drawn prints.',
+    subtitle: "Girlswear is my true love. I love the attention to detail and craft, and have extensive experience designing across shape and pattern.",
     path: `/girlswear`,
     data: Girlswear.DATA
   },
@@ -30,8 +30,8 @@ export const PAGES = [
     title: 'Boyswear',
     date: 'Work',
     image: Boys,
-    intro: 'At Twitter, I am leading design for subscriptions as a Staff product designer in the revenue diversity team.',
-    subtitle: "I joined Twitter at a time of accelerating product change to help lead design in the revenue diversity space. I am primarily focused on imprving on consumer subscription product, Twitter Blue.",
+    intro: 'I have worked on boyswear extensively, with full ranges, bold graphics, and detailed prints.',
+    subtitle: "I have had the opportunity to design exciting ranges for boys whilst at various companies. I enjoy applying my style to all types of childrens products.",
     path: `/boysswear`,
     data: Boyswear.DATA
   },
@@ -39,8 +39,8 @@ export const PAGES = [
     title: 'Babywear',
     date: 'Work',
     image: Baby,
-    intro: 'At Twitter, I am leading design for subscriptions as a Staff product designer in the revenue diversity team.',
-    subtitle: "I joined Twitter at a time of accelerating product change to help lead design in the revenue diversity space. I am primarily focused on imprving on consumer subscription product, Twitter Blue.",
+    intro: 'Babywear shape and pattern work from the past 15 years.',
+    subtitle: "At Jojo Maman Bebe, I designed extensive ranges for babywear. I have also had the chance to work with some beautiful vintage licences.",
     path: `/babywear`,
     data: Babywear.DATA
   },
@@ -48,8 +48,8 @@ export const PAGES = [
     title: 'Print',
     date: 'Work',
     image: PrintImage,
-    intro: 'At Twitter, I am leading design for subscriptions as a Staff product designer in the revenue diversity team.',
-    subtitle: "I joined Twitter at a time of accelerating product change to help lead design in the revenue diversity space. I am primarily focused on imprving on consumer subscription product, Twitter Blue.",
+    intro: 'A selection of my print and pattern work, including vintage inspired florals, and painterly, hand-drawn motifs.',
+    subtitle: "I love to design repeat patterns. I have experienced many styles, using both digital and traditional methods, to make a wide variety of prints for different applications.",
     path: `/print`,
     data: Print.DATA
   },
@@ -57,8 +57,8 @@ export const PAGES = [
     title: 'Products',
     date: 'Work',
     image: Product,
-    intro: 'At Twitter, I am leading design for subscriptions as a Staff product designer in the revenue diversity team.',
-    subtitle: "I joined Twitter at a time of accelerating product change to help lead design in the revenue diversity space. I am primarily focused on imprving on consumer subscription product, Twitter Blue.",
+    intro: 'Childrens product design outside of clothing.',
+    subtitle: "Whilst working at Jojo, I got to use my design style across a variety of different product lines.",
     path: `/products`,
     data: Products.DATA
   },
